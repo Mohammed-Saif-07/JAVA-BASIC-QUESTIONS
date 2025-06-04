@@ -1,0 +1,68 @@
+/*                                   
+                                  TIME COMPLEXITY                         
+
+1. BEST CASE = omega(1)
+
+2. AVERAGE CASE = theta((n + 1)/2)
+
+3. WORST CASE = O(n)  // BIG O 
+
+
+import java.util.Scanner;
+public class timeComplexity{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner ( System.in);
+        int n = sc.nextInt();
+
+        for (int i = 0 ; i < n ; i++){
+            for ( int j = 0 ; j < n ; j++){
+                System.out.println("helo");
+            }
+        }
+    }
+}  
+
+its time complexity is 0(n^2)
+
+
+import java.util.Scanner;
+public class timeComplexity{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner ( System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+
+        for (int i = 0 ; i < n ; i++){
+            for ( int j = 0 ; j < m ; j++){
+                System.out.println("helo");
+            }
+        }
+    }
+}  
+
+its time complexity is 0(n * m)
+
+
+import java.util.Scanner;
+public class timeComplexity{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner ( System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+
+        for (int i = 0 ; i < n ; i++){
+            System.out.println("hello")
+        }
+            for ( int j = 0 ; j < m ; j++){
+                System.out.println("helo");
+            }
+        }
+    }
+
+its time complexity is 0(n + m)
+
+                                    SPACE COMPLEXITY
+                            ( HOW MUCH MEMORY THE CODE IS USING)
+DEPENDS ON HOW MUCH VARIABLES 
+
+*/
